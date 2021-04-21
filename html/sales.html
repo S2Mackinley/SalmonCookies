@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pat's Salmon Cookies | Sales</title>
+    <link rel="icon" href="../img/fish-favicon.png">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Patua+One|Roboto+Slab" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header & Nav section -->
+    <header>
+      <nav class="nav-menu">
+        <ul>
+          <li><a class="header-link logo-text" href="../index.html">Home</a></li>
+          <li><a class="header-link logo-text" href="../index.html#menu">Menu</a></li>
+          <li><a class="header-link logo-text" href="../index.html#cust">Customers</a></li>
+          <li><a class="header-link logo-text" href="../index.html#merch">Merchandise</a></li>
+          <li><a class="header-link logo-text" href="sales.html">Sales</a></li>
+          <li><a class="header-link logo-text" href="stylesheet.html">Stylesheet</a></li>
+          <li><a class="header-link logo-text" href="../index.html#location">Location</a></li>
+          <li><a class="header-link logo-text" href="../index.html#about">About</a></li>
+          <li><a class="header-link logo-text" href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="sales-container">
+      <!-- Users can add new stores -->
+      <section id="new-store-section">
+        <h1 class="sales-headings">New Stores Coming</h1>
+        <form id="main-form">
+          <input placeholder="Store Name" type="text" name="storeName">
+          <input placeholder="Min Cust" type="number" name="minCust">
+          <input placeholder="Max Cust" type="number" name="maxCust">
+          <input placeholder="Average Cookies" type="number" step="any" name="avgCookiesPerSale">
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <!-- Projected cookie sales table inserted below -->
+      <section id="projected-sales-section">
+        <h1 class="sales-headings">Cookie Stand Projected Sales</h1>
+        <!-- Sales Projectsion Table -->
+        <table id="main-table"></table>
+      </section>
+    </main>
+    <footer>
+        <p class="logo-text">&#169; 2017 Pat's Salmon Cookies</p>
+    </footer>
+    <script src="../js/sales.js" type="text/javascript"></script>
+  </body>
+</html>
